@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="dut.haochi.dtmc" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_OL5O8N37Ee63gJ42zodh0w" selectedViews="_XOQnUN37Ee63gJ42zodh0w" version="15.0.0.202209061200">
+    <semanticResources>Distance.dtmc</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_XOQnUN37Ee63gJ42zodh0w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Xaiv0N37Ee63gJ42zodh0w" name="new DtmcDiagram" repPath="#_XaV7gN37Ee63gJ42zodh0w" changeId="3be157d0-e2e0-4ed2-bacd-e78ce50865b6">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']"/>
+        <target xmi:type="Dtmc" href="MyDtmc.dtmc#//@dtmc.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_a9HvoN4EEe6udZXaHRc5_w" name="new DtmcDiagram" repPath="#_a9GhgN4EEe6udZXaHRc5_w" changeId="863c3448-79ed-4013-a00d-f83546d11354">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']"/>
+        <target xmi:type="Dtmc" href="Distance.dtmc#//@dtmc.0"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_XaV7gN37Ee63gJ42zodh0w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Xa244N37Ee63gJ42zodh0w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Xa244d37Ee63gJ42zodh0w" type="Sirius" element="_XaV7gN37Ee63gJ42zodh0w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_XbVaAN37Ee63gJ42zodh0w" type="2001" element="_Xa8_gN37Ee63gJ42zodh0w">
+          <children xmi:type="notation:Node" xmi:id="_Xba5kN37Ee63gJ42zodh0w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Xba5kd37Ee63gJ42zodh0w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XbiOUN37Ee63gJ42zodh0w" type="3003" element="_XbCfEN37Ee63gJ42zodh0w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XbiOUd37Ee63gJ42zodh0w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XbiOUt37Ee63gJ42zodh0w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XbVaAd37Ee63gJ42zodh0w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XbVaAt37Ee63gJ42zodh0w" x="505" y="140" width="206" height="106"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6Kl0N4EEe6udZXaHRc5_w" type="2001" element="_S511st4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6Lz8N4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6Lz8d4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6OQMN4EEe6udZXaHRc5_w" type="3001" element="_S55gFd4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6OQM94EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6OQNN4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6RTg94EEe6udZXaHRc5_w" type="3002" element="_S578UN4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6RThN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6RThd4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6OQMd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6OQMt4EEe6udZXaHRc5_w" y="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6QscN4EEe6udZXaHRc5_w" type="3001" element="_S578Ut4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6Qsc94EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6QsdN4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6R6kN4EEe6udZXaHRc5_w" type="3002" element="_S578U94EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6R6kd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6R6kt4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6Qscd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6Qsct4EEe6udZXaHRc5_w" y="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6RTgN4EEe6udZXaHRc5_w" type="3003" element="_S53D0N4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6RTgd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6RTgt4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6Kl0d4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6Kl0t4EEe6udZXaHRc5_w" x="180" y="480" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6MbAN4EEe6udZXaHRc5_w" type="2001" element="_S53q4d4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6MbA94EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6MbBN4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6R6k94EEe6udZXaHRc5_w" type="3001" element="_S578Vd4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6R6lt4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6R6l94EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6Sho94EEe6udZXaHRc5_w" type="3002" element="_S578Vt4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6ShpN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6Shpd4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6R6lN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6R6ld4EEe6udZXaHRc5_w" x="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6ShoN4EEe6udZXaHRc5_w" type="3003" element="_S53q4t4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6Shod4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6Shot4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6MbAd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6MbAt4EEe6udZXaHRc5_w" x="45" y="90" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6MbBd4EEe6udZXaHRc5_w" type="2001" element="_S54R8d4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6MbCN4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6MbCd4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6Shpt4EEe6udZXaHRc5_w" type="3001" element="_S58jYd4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6TIsN4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6TIsd4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6TItd4EEe6udZXaHRc5_w" type="3002" element="_S58jYt4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6TItt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6TIt94EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6Shp94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6ShqN4EEe6udZXaHRc5_w" x="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6TIst4EEe6udZXaHRc5_w" type="3003" element="_S54R8t4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6TIs94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6TItN4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6MbBt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6MbB94EEe6udZXaHRc5_w" x="245" y="465" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6MbCt4EEe6udZXaHRc5_w" type="2001" element="_S54R9N4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6MbDd4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6MbDt4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6TIuN4EEe6udZXaHRc5_w" type="3001" element="_S58jZN4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6TvwN4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6Tvwd4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6UW0N4EEe6udZXaHRc5_w" type="3002" element="_S59KcN4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6UW0d4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6UW0t4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6TIud4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6TIut4EEe6udZXaHRc5_w" x="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6Tvwt4EEe6udZXaHRc5_w" type="3003" element="_S54R9d4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6Tvw94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6TvxN4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6MbC94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6MbDN4EEe6udZXaHRc5_w" x="245" y="375" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6NCEN4EEe6udZXaHRc5_w" type="2001" element="_S54R994EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6NCE94EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6NCFN4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6UW094EEe6udZXaHRc5_w" type="3001" element="_S59Kct4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6UW1t4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6UW194EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6Vk8N4EEe6udZXaHRc5_w" type="3002" element="_S59Kc94EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6Vk8d4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6Vk8t4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6UW1N4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6UW1d4EEe6udZXaHRc5_w" y="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6U94N4EEe6udZXaHRc5_w" type="3001" element="_S59Kdd4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6U9494EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6U95N4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6Vk894EEe6udZXaHRc5_w" type="3002" element="_S59Kdt4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6Vk9N4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6Vk9d4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6U94d4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6U94t4EEe6udZXaHRc5_w" y="-22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6U95d4EEe6udZXaHRc5_w" type="3003" element="_S54R-N4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6U95t4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6U9594EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6NCEd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6NCEt4EEe6udZXaHRc5_w" x="245" y="285" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6NCFd4EEe6udZXaHRc5_w" type="2001" element="_S545AN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6NCGN4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6NCGd4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6Vk9t4EEe6udZXaHRc5_w" type="3001" element="_S59KeN4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6Vk-d4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6Vk-t4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6WMAN4EEe6udZXaHRc5_w" type="3002" element="_S59Ked4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6WMAd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6WMAt4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6Vk994EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6Vk-N4EEe6udZXaHRc5_w" x="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6Vk-94EEe6udZXaHRc5_w" type="3003" element="_S545Ad4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6Vk_N4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6Vk_d4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6NCFt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6NCF94EEe6udZXaHRc5_w" x="245" y="90" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6NCGt4EEe6udZXaHRc5_w" type="2001" element="_S545A94EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6NCHd4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6NCHt4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6WMA94EEe6udZXaHRc5_w" type="3001" element="_S59xgd4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6WMBt4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6WMB94EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6WMC94EEe6udZXaHRc5_w" type="3002" element="_S59xgt4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6WMDN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6WMDd4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6WMBN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6WMBd4EEe6udZXaHRc5_w" y="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6WMCN4EEe6udZXaHRc5_w" type="3003" element="_S545BN4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6WMCd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6WMCt4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6NCG94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6NCHN4EEe6udZXaHRc5_w" x="380" y="300" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6NpIN4EEe6udZXaHRc5_w" type="2001" element="_S545Bt4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6NpI94EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6NpJN4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6WzEN4EEe6udZXaHRc5_w" type="3001" element="_S59xhN4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6WzE94EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6WzFN4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6WzGN4EEe6udZXaHRc5_w" type="3002" element="_S59xhd4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6WzGd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6WzGt4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6WzEd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6WzEt4EEe6udZXaHRc5_w" y="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6WzFd4EEe6udZXaHRc5_w" type="3003" element="_S55gEN4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6WzFt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6WzF94EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6NpId4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6NpIt4EEe6udZXaHRc5_w" x="135" y="90" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6NpJd4EEe6udZXaHRc5_w" type="2001" element="_S55gEt4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6NpKN4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6NpKd4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6WzG94EEe6udZXaHRc5_w" type="3003" element="_S55gE94EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6WzHN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6WzHd4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6NpJt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6NpJ94EEe6udZXaHRc5_w" x="225" y="30" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6NpKt4EEe6udZXaHRc5_w" type="2001" element="_S59xh94EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6NpLd4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6NpLt4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6WzHt4EEe6udZXaHRc5_w" type="3001" element="_S6ANwN4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6WzId4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6WzIt4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6XaI94EEe6udZXaHRc5_w" type="3002" element="_S6ANwd4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6XaJN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6XaJd4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6WzH94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6WzIN4EEe6udZXaHRc5_w" x="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6XaIN4EEe6udZXaHRc5_w" type="3003" element="_S59xiN4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6XaId4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6XaIt4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6NpK94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6NpLN4EEe6udZXaHRc5_w" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S6NpL94EEe6udZXaHRc5_w" type="2001" element="_S59xit4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6NpMt4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_S6NpM94EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6XaJt4EEe6udZXaHRc5_w" type="3001" element="_S6ANw94EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_S6XaKd4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S6XaKt4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S6XaLt4EEe6udZXaHRc5_w" type="3002" element="_S6A00N4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S6XaL94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6XaMN4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6XaJ94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6XaKN4EEe6udZXaHRc5_w" x="22" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6XaK94EEe6udZXaHRc5_w" type="3003" element="_S59xi94EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S6XaLN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6XaLd4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S6NpMN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6NpMd4EEe6udZXaHRc5_w" x="90" width="30" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Xa244t37Ee63gJ42zodh0w"/>
+        <edges xmi:type="notation:Edge" xmi:id="_S6adcN4EEe6udZXaHRc5_w" type="4001" element="_S6EfMN4EEe6udZXaHRc5_w" source="_S6OQMN4EEe6udZXaHRc5_w" target="_S6MbBd4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6bEgN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6bEgd4EEe6udZXaHRc5_w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6dgwN4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6dgwd4EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6dgwt4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6dgw94EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S6adcd4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S6adct4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6adc94EEe6udZXaHRc5_w" points="[0, 0, -1666, -1630]$[1666, 1630, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6jAUN4EEe6udZXaHRc5_w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6jAUd4EEe6udZXaHRc5_w" id="(0.0,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_S6jAUt4EEe6udZXaHRc5_w" type="4001" element="_S6GUYN4EEe6udZXaHRc5_w" source="_S6QscN4EEe6udZXaHRc5_w" target="_S6MbAN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6jAVt4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6jAV94EEe6udZXaHRc5_w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6jAWN4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6jAWd4EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6jAWt4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6jAW94EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S6jAU94EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S6jAVN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6jAVd4EEe6udZXaHRc5_w" points="[0, 0, -1054, -338]$[1054, 338, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6jAXN4EEe6udZXaHRc5_w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6jAXd4EEe6udZXaHRc5_w" id="(0.0,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_S6jAXt4EEe6udZXaHRc5_w" type="4001" element="_S6GUZd4EEe6udZXaHRc5_w" source="_S6R6k94EEe6udZXaHRc5_w" target="_S6NpJd4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6jnYN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6jnYd4EEe6udZXaHRc5_w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6jnYt4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6jnY94EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6jnZN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6jnZd4EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S6jAX94EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S6jAYN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6jAYd4EEe6udZXaHRc5_w" points="[0, 0, -1478, -60]$[1478, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6jnZt4EEe6udZXaHRc5_w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6jnZ94EEe6udZXaHRc5_w" id="(0.0,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_S6jnaN4EEe6udZXaHRc5_w" type="4001" element="_S6G7cN4EEe6udZXaHRc5_w" source="_S6Shpt4EEe6udZXaHRc5_w" target="_S6MbCt4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6jnbN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6jnbd4EEe6udZXaHRc5_w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6jnbt4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6jnb94EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6jncN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6jncd4EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S6jnad4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S6jnat4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6jna94EEe6udZXaHRc5_w" points="[0, 0, -1644, -1292]$[1644, 1292, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6jnct4EEe6udZXaHRc5_w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6jnc94EEe6udZXaHRc5_w" id="(0.0,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_S6jndN4EEe6udZXaHRc5_w" type="4001" element="_S6G7dd4EEe6udZXaHRc5_w" source="_S6TIuN4EEe6udZXaHRc5_w" target="_S6NCEN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6kOcN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6kOcd4EEe6udZXaHRc5_w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6kOct4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6kOc94EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6kOdN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6kOdd4EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S6jndd4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S6jndt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6jnd94EEe6udZXaHRc5_w" points="[0, 0, -1644, -932]$[1644, 932, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6kOdt4EEe6udZXaHRc5_w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6kOd94EEe6udZXaHRc5_w" id="(0.0,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_S6kOeN4EEe6udZXaHRc5_w" type="4001" element="_S6G7et4EEe6udZXaHRc5_w" source="_S6UW094EEe6udZXaHRc5_w" target="_S6NCFd4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6kOfN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6kOfd4EEe6udZXaHRc5_w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6kOft4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6kOf94EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6kOgN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6kOgd4EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S6kOed4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S6kOet4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6kOe94EEe6udZXaHRc5_w" points="[0, 0, -1880, -338]$[1880, 338, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6kOgt4EEe6udZXaHRc5_w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6kOg94EEe6udZXaHRc5_w" id="(0.0,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_S6kOhN4EEe6udZXaHRc5_w" type="4001" element="_S6G7f94EEe6udZXaHRc5_w" source="_S6U94N4EEe6udZXaHRc5_w" target="_S6NpIN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6kOiN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6kOid4EEe6udZXaHRc5_w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6kOit4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6kOi94EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6kOjN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6kOjd4EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S6kOhd4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S6kOht4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6kOh94EEe6udZXaHRc5_w" points="[0, 0, -1392, -360]$[1392, 360, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6kOjt4EEe6udZXaHRc5_w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6kOj94EEe6udZXaHRc5_w" id="(0.0,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_S6k1gN4EEe6udZXaHRc5_w" type="4001" element="_S6IJlN4EEe6udZXaHRc5_w" source="_S6Vk9t4EEe6udZXaHRc5_w" target="_S6NCGt4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6k1hN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6k1hd4EEe6udZXaHRc5_w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6k1ht4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6k1h94EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6k1iN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6k1id4EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S6k1gd4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S6k1gt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6k1g94EEe6udZXaHRc5_w" points="[0, 0, -2124, -1140]$[2124, 1140, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6lckN4EEe6udZXaHRc5_w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6lckd4EEe6udZXaHRc5_w" id="(0.0,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_S6lckt4EEe6udZXaHRc5_w" type="4001" element="_S6IwoN4EEe6udZXaHRc5_w" source="_S6WMA94EEe6udZXaHRc5_w" target="_S6NCEN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6lclt4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6lcl94EEe6udZXaHRc5_w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6lcmN4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6lcmd4EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6lcmt4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6lcm94EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S6lck94EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S6lclN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6lcld4EEe6udZXaHRc5_w" points="[0, 0, -1666, -910]$[1666, 910, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6lcnN4EEe6udZXaHRc5_w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6lcnd4EEe6udZXaHRc5_w" id="(0.0,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_S6lcnt4EEe6udZXaHRc5_w" type="4001" element="_S6Iwpd4EEe6udZXaHRc5_w" source="_S6WzEN4EEe6udZXaHRc5_w" target="_S6NpJd4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_S6lcot4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6lco94EEe6udZXaHRc5_w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6lcpN4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6lcpd4EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S6lcpt4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6lcp94EEe6udZXaHRc5_w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S6lcn94EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S6lcoN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S6lcod4EEe6udZXaHRc5_w" points="[0, 0, -1500, -38]$[1500, 38, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6lcqN4EEe6udZXaHRc5_w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S6lcqd4EEe6udZXaHRc5_w" id="(0.0,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XbJMwN37Ee63gJ42zodh0w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XbJMwd37Ee63gJ42zodh0w"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Xa8_gN37Ee63gJ42zodh0w" name="0" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="MyDtmc.dtmc#//@dtmc.0/@states.0"/>
+      <semanticElements xmi:type="State" href="MyDtmc.dtmc#//@dtmc.0/@states.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_XbCfEN37Ee63gJ42zodh0w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S511st4EEe6udZXaHRc5_w" name="0" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.0"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S55gFd4EEe6udZXaHRc5_w" name="[2]" outgoingEdges="_S6EfMN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S578UN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S578Ut4EEe6udZXaHRc5_w" name="[1]" outgoingEdges="_S6GUYN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.1"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.1"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S578U94EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:Square" uid="_S53D0N4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S53q4d4EEe6udZXaHRc5_w" name="1" incomingEdges="_S6GUYN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.1"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S578Vd4EEe6udZXaHRc5_w" name="[8]" outgoingEdges="_S6GUZd4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.1/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.1/@transitions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S578Vt4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:Square" uid="_S53q4t4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S54R8d4EEe6udZXaHRc5_w" name="2" incomingEdges="_S6EfMN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.2"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S58jYd4EEe6udZXaHRc5_w" name="[3]" outgoingEdges="_S6G7cN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.2/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.2/@transitions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S58jYt4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:Square" uid="_S54R8t4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S54R9N4EEe6udZXaHRc5_w" name="3" incomingEdges="_S6G7cN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.3"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S58jZN4EEe6udZXaHRc5_w" name="[4]" outgoingEdges="_S6G7dd4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.3/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.3/@transitions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S59KcN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:Square" uid="_S54R9d4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S54R994EEe6udZXaHRc5_w" name="4" incomingEdges="_S6G7dd4EEe6udZXaHRc5_w _S6IwoN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.4"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.4"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S59Kct4EEe6udZXaHRc5_w" name="[5]" outgoingEdges="_S6G7et4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S59Kc94EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S59Kdd4EEe6udZXaHRc5_w" name="[7]" outgoingEdges="_S6G7f94EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.1"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.1"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S59Kdt4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:Square" uid="_S54R-N4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S545AN4EEe6udZXaHRc5_w" name="5" incomingEdges="_S6G7et4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.5"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.5"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S59KeN4EEe6udZXaHRc5_w" name="[6]" outgoingEdges="_S6IJlN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.5/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.5/@transitions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S59Ked4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:Square" uid="_S545Ad4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S545A94EEe6udZXaHRc5_w" name="6" incomingEdges="_S6IJlN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.6"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.6"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S59xgd4EEe6udZXaHRc5_w" name="[4]" outgoingEdges="_S6IwoN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.6/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.6/@transitions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S59xgt4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:Square" uid="_S545BN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S545Bt4EEe6udZXaHRc5_w" name="7" incomingEdges="_S6G7f94EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.7"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.7"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S59xhN4EEe6udZXaHRc5_w" name="[8]" outgoingEdges="_S6Iwpd4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.7/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.7/@transitions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S59xhd4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:Square" uid="_S55gEN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S55gEt4EEe6udZXaHRc5_w" name="8" incomingEdges="_S6GUZd4EEe6udZXaHRc5_w _S6Iwpd4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.8"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.8"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_S55gE94EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S59xh94EEe6udZXaHRc5_w" name="cost" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="Reward" href="Distance.dtmc#//@dtmc.0/@rewards.0"/>
+      <semanticElements xmi:type="Reward" href="Distance.dtmc#//@dtmc.0/@rewards.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S6ANwN4EEe6udZXaHRc5_w" name="s=1" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Action" href="Distance.dtmc#//@dtmc.0/@rewards.0/@actions.0"/>
+        <semanticElements xmi:type="Action" href="Distance.dtmc#//@dtmc.0/@rewards.0/@actions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S6ANwd4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="217,196,215">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@borderedNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@borderedNodeMappings[name='action']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:Square" uid="_S59xiN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,233,79">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_S59xit4EEe6udZXaHRc5_w" name="time" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="Reward" href="Distance.dtmc#//@dtmc.0/@rewards.1"/>
+      <semanticElements xmi:type="Reward" href="Distance.dtmc#//@dtmc.0/@rewards.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S6ANw94EEe6udZXaHRc5_w" name="s=5" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Action" href="Distance.dtmc#//@dtmc.0/@rewards.1/@actions.0"/>
+        <semanticElements xmi:type="Action" href="Distance.dtmc#//@dtmc.0/@rewards.1/@actions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_S6A00N4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="217,196,215">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@borderedNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@borderedNodeMappings[name='action']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:Square" uid="_S59xi94EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,233,79">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_S6EfMN4EEe6udZXaHRc5_w" name="0.8" sourceNode="_S55gFd4EEe6udZXaHRc5_w" targetNode="_S54R8d4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_S6FtUN4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_S6FtUd4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_S6GUYN4EEe6udZXaHRc5_w" name="0.2" sourceNode="_S578Ut4EEe6udZXaHRc5_w" targetNode="_S53q4d4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_S6GUYd4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_S6GUYt4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_S6GUZd4EEe6udZXaHRc5_w" name="1.0" sourceNode="_S578Vd4EEe6udZXaHRc5_w" targetNode="_S55gEt4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.1/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_S6GUZt4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_S6GUZ94EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_S6G7cN4EEe6udZXaHRc5_w" name="1.0" sourceNode="_S58jYd4EEe6udZXaHRc5_w" targetNode="_S54R9N4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.2/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_S6G7cd4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_S6G7ct4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_S6G7dd4EEe6udZXaHRc5_w" name="1.0" sourceNode="_S58jZN4EEe6udZXaHRc5_w" targetNode="_S54R994EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.3/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_S6G7dt4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_S6G7d94EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_S6G7et4EEe6udZXaHRc5_w" name="0.4" sourceNode="_S59Kct4EEe6udZXaHRc5_w" targetNode="_S545AN4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_S6G7e94EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_S6G7fN4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_S6G7f94EEe6udZXaHRc5_w" name="1.0" sourceNode="_S59Kdd4EEe6udZXaHRc5_w" targetNode="_S545Bt4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_S6IJkN4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_S6IJkd4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_S6IJlN4EEe6udZXaHRc5_w" name="1.0" sourceNode="_S59KeN4EEe6udZXaHRc5_w" targetNode="_S545A94EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.5/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_S6IJld4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_S6IJlt4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_S6IwoN4EEe6udZXaHRc5_w" name="1.0" sourceNode="_S59xgd4EEe6udZXaHRc5_w" targetNode="_S54R994EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.6/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_S6Iwod4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_S6Iwot4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_S6Iwpd4EEe6udZXaHRc5_w" name="1.0" sourceNode="_S59xhN4EEe6udZXaHRc5_w" targetNode="_S55gEt4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.7/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_S6Iwpt4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_S6Iwp94EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XadQQN37Ee63gJ42zodh0w"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer"/>
+    <target xmi:type="Dtmc" href="MyDtmc.dtmc#//@dtmc.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_a9GhgN4EEe6udZXaHRc5_w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_a9MBEN4EEe6udZXaHRc5_w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_a9MBEd4EEe6udZXaHRc5_w" type="Sirius" element="_a9GhgN4EEe6udZXaHRc5_w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_a9Uj8N4EEe6udZXaHRc5_w" type="2001" element="_a9MoIN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9VLAN4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9VLAd4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9WZKt4EEe6udZXaHRc5_w" type="3001" element="_a9PEYd4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9WZLd4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9WZLt4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9WZN94EEe6udZXaHRc5_w" type="3002" element="_a9PEYt4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9WZON4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9WZOd4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9WZK94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9WZLN4EEe6udZXaHRc5_w" x="15" y="58" width="69" height="56"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9WZL94EEe6udZXaHRc5_w" type="3001" element="_a9PEZN4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9WZMt4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9WZM94EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9WZOt4EEe6udZXaHRc5_w" type="3002" element="_a9PEZd4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9WZO94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9WZPN4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9WZMN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9WZMd4EEe6udZXaHRc5_w" x="5" y="-53" width="77" height="61"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9WZNN4EEe6udZXaHRc5_w" type="3003" element="_a9MoId4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9WZNd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9WZNt4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Uj8d4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Uj8t4EEe6udZXaHRc5_w" x="85" y="265" width="91" height="66"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9VLAt4EEe6udZXaHRc5_w" type="2001" element="_a9NPMN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9VLBd4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9VLBt4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9XAMN4EEe6udZXaHRc5_w" type="3001" element="_a9PEZ94EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9XAM94EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9XANN4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9XAON4EEe6udZXaHRc5_w" type="3002" element="_a9PEaN4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XAOd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XAOt4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XAMd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XAMt4EEe6udZXaHRc5_w" x="87" width="69" height="46"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9XANd4EEe6udZXaHRc5_w" type="3003" element="_a9NPMd4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XANt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XAN94EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9VLA94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9VLBN4EEe6udZXaHRc5_w" x="200" y="145" width="95" height="46"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9VLB94EEe6udZXaHRc5_w" type="2001" element="_a9NPM94EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9VLCt4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9VLC94EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9XAO94EEe6udZXaHRc5_w" type="3001" element="_a9PrcN4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9XAPt4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9XAP94EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9XnQ94EEe6udZXaHRc5_w" type="3002" element="_a9Prcd4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XnRN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XnRd4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XAPN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XAPd4EEe6udZXaHRc5_w" x="80" width="71" height="66"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9XnQN4EEe6udZXaHRc5_w" type="3003" element="_a9NPNN4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XnQd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XnQt4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9VLCN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9VLCd4EEe6udZXaHRc5_w" x="195" y="495" width="88" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9VLDN4EEe6udZXaHRc5_w" type="2001" element="_a9NPNt4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9VLD94EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9VLEN4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9XnRt4EEe6udZXaHRc5_w" type="3001" element="_a9Prc94EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9XnSd4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9XnSt4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9XnTt4EEe6udZXaHRc5_w" type="3002" element="_a9PrdN4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XnT94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XnUN4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XnR94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XnSN4EEe6udZXaHRc5_w" x="35" y="68" width="71" height="73"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9XnS94EEe6udZXaHRc5_w" type="3003" element="_a9NPN94EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XnTN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XnTd4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9VLDd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9VLDt4EEe6udZXaHRc5_w" x="420" y="485" width="116" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9VyEN4EEe6udZXaHRc5_w" type="2001" element="_a9N2Qd4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9VyE94EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9VyFN4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9XnUd4EEe6udZXaHRc5_w" type="3001" element="_a9Prdt4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9XnVN4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9XnVd4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9YOVd4EEe6udZXaHRc5_w" type="3002" element="_a9Prd94EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9YOVt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9YOV94EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XnUt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XnU94EEe6udZXaHRc5_w" x="20" y="59" width="91" height="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9XnVt4EEe6udZXaHRc5_w" type="3001" element="_a9Q5kd4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9YOUN4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9YOUd4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9YOWN4EEe6udZXaHRc5_w" type="3002" element="_a9Q5kt4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9YOWd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9YOWt4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9XnV94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9XnWN4EEe6udZXaHRc5_w" x="35" y="-44" width="68" height="52"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9YOUt4EEe6udZXaHRc5_w" type="3003" element="_a9N2Qt4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9YOU94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9YOVN4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9VyEd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9VyEt4EEe6udZXaHRc5_w" x="610" y="550" width="141" height="67"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9VyFd4EEe6udZXaHRc5_w" type="2001" element="_a9N2RN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9VyGN4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9VyGd4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9YOW94EEe6udZXaHRc5_w" type="3001" element="_a9Q5lN4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9YOXt4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9YOX94EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9YOY94EEe6udZXaHRc5_w" type="3002" element="_a9RgoN4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9YOZN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9YOZd4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9YOXN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9YOXd4EEe6udZXaHRc5_w" y="-35" width="111" height="43"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9YOYN4EEe6udZXaHRc5_w" type="3003" element="_a9N2Rd4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9YOYd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9YOYt4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9VyFt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9VyF94EEe6udZXaHRc5_w" x="850" y="650" width="131" height="56"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9VyGt4EEe6udZXaHRc5_w" type="2001" element="_a9OdUd4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9VyHd4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9VyHt4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9YOZt4EEe6udZXaHRc5_w" type="3001" element="_a9Rgot4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9Y1YN4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9Y1Yd4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9Y1Zd4EEe6udZXaHRc5_w" type="3002" element="_a9Rgo94EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Y1Zt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Y1Z94EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9YOZ94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9YOaN4EEe6udZXaHRc5_w" y="-40" width="116" height="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9Y1Yt4EEe6udZXaHRc5_w" type="3003" element="_a9OdUt4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Y1Y94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Y1ZN4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9VyG94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9VyHN4EEe6udZXaHRc5_w" x="940" y="495" width="141" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9VyH94EEe6udZXaHRc5_w" type="2001" element="_a9OdVN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9VyIt4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9VyI94EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9Y1aN4EEe6udZXaHRc5_w" type="3001" element="_a9Rgpd4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9Y1a94EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9Y1bN4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9Y1cN4EEe6udZXaHRc5_w" type="3002" element="_a9Rgpt4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Y1cd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Y1ct4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Y1ad4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Y1at4EEe6udZXaHRc5_w" x="44" y="-55" width="87" height="63"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9Y1bd4EEe6udZXaHRc5_w" type="3003" element="_a9OdVd4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Y1bt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Y1b94EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9VyIN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9VyId4EEe6udZXaHRc5_w" x="570" y="220" width="131" height="91"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9VyJN4EEe6udZXaHRc5_w" type="2001" element="_a9OdV94EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9VyJ94EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9VyKN4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9Y1c94EEe6udZXaHRc5_w" type="3003" element="_a9OdWN4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Y1dN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Y1dd4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9VyJd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9VyJt4EEe6udZXaHRc5_w" x="425" y="153" width="90" height="63"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9WZIN4EEe6udZXaHRc5_w" type="2001" element="_a9RgqN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9WZI94EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9WZJN4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9Y1dt4EEe6udZXaHRc5_w" type="3001" element="_a9SHst4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9Y1ed4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9Y1et4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9Zcc94EEe6udZXaHRc5_w" type="3002" element="_a9SHs94EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9ZcdN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Zcdd4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Y1d94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Y1eN4EEe6udZXaHRc5_w" x="97" width="79" height="51"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9ZccN4EEe6udZXaHRc5_w" type="3003" element="_a9Rgqd4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Zccd4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Zcct4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9WZId4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9WZIt4EEe6udZXaHRc5_w" x="935" y="135" width="105" height="56"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a9WZJd4EEe6udZXaHRc5_w" type="2001" element="_a9Rgq94EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9WZKN4EEe6udZXaHRc5_w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a9WZKd4EEe6udZXaHRc5_w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9Zcdt4EEe6udZXaHRc5_w" type="3001" element="_a9SHtd4EEe6udZXaHRc5_w">
+            <children xmi:type="notation:Node" xmi:id="_a9Zced4EEe6udZXaHRc5_w" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_a9Zcet4EEe6udZXaHRc5_w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_a9Zcft4EEe6udZXaHRc5_w" type="3002" element="_a9SHtt4EEe6udZXaHRc5_w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Zcf94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9ZcgN4EEe6udZXaHRc5_w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9Zcd94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9ZceN4EEe6udZXaHRc5_w" x="97" y="-16" width="79" height="46"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9Zce94EEe6udZXaHRc5_w" type="3003" element="_a9SHsN4EEe6udZXaHRc5_w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a9ZcfN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9Zcfd4EEe6udZXaHRc5_w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a9WZJt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9WZJ94EEe6udZXaHRc5_w" x="935" y="29" width="105" height="61"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_a9MBEt4EEe6udZXaHRc5_w"/>
+        <edges xmi:type="notation:Edge" xmi:id="_a9Zcgd4EEe6udZXaHRc5_w" type="4001" element="_a9SHuN4EEe6udZXaHRc5_w" source="_a9WZKt4EEe6udZXaHRc5_w" target="_a9VLB94EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9aDgN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aDgd4EEe6udZXaHRc5_w" x="-15"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9aDgt4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aDg94EEe6udZXaHRc5_w" x="4" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9aDhN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aDhd4EEe6udZXaHRc5_w" x="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a9Zcgt4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a9Zcg94EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a9ZchN4EEe6udZXaHRc5_w" points="[30, 41, -108, -146]$[115, 157, -23, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9aDht4EEe6udZXaHRc5_w" id="(0.21739130434782608,0.26785714285714285)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9aDh94EEe6udZXaHRc5_w" id="(0.6590909090909091,0.39473684210526316)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a9aDiN4EEe6udZXaHRc5_w" type="4001" element="_a9Suwt4EEe6udZXaHRc5_w" source="_a9WZL94EEe6udZXaHRc5_w" target="_a9VLAt4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9aDjN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aDjd4EEe6udZXaHRc5_w" x="-3" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9aDjt4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aDj94EEe6udZXaHRc5_w" x="3" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9aDkN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aDkd4EEe6udZXaHRc5_w" x="3" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a9aDid4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a9aDit4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a9aDi94EEe6udZXaHRc5_w" points="[15, -7, -98, 45]$[78, -36, -35, 16]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9aDkt4EEe6udZXaHRc5_w" id="(0.8051948051948052,0.2459016393442623)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9aDk94EEe6udZXaHRc5_w" id="(0.6842105263157895,0.6521739130434783)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a9aDlN4EEe6udZXaHRc5_w" type="4001" element="_a9Sux94EEe6udZXaHRc5_w" source="_a9XAMN4EEe6udZXaHRc5_w" target="_a9VyJN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9aDmN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aDmd4EEe6udZXaHRc5_w" x="-1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9aDmt4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aDm94EEe6udZXaHRc5_w" x="1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9aDnN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aDnd4EEe6udZXaHRc5_w" x="1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a9aDld4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a9aDlt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a9aDl94EEe6udZXaHRc5_w" points="[54, 6, -129, -17]$[183, 23, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9aDnt4EEe6udZXaHRc5_w" id="(0.21739130434782608,0.32608695652173914)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9aDn94EEe6udZXaHRc5_w" id="(0.6666666666666666,0.47619047619047616)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a9aDoN4EEe6udZXaHRc5_w" type="4001" element="_a9SuzN4EEe6udZXaHRc5_w" source="_a9XAO94EEe6udZXaHRc5_w" target="_a9VLDN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9aqkN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aqkd4EEe6udZXaHRc5_w" x="-13" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9aqkt4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aqk94EEe6udZXaHRc5_w" x="7" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9aqlN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aqld4EEe6udZXaHRc5_w" x="7" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a9aDod4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a9aDot4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a9aDo94EEe6udZXaHRc5_w" points="[56, 2, -84, -3]$[140, 5, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9aqlt4EEe6udZXaHRc5_w" id="(0.2112676056338028,0.22727272727272727)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9aql94EEe6udZXaHRc5_w" id="(0.08620689655172414,0.39473684210526316)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a9aqmN4EEe6udZXaHRc5_w" type="4001" element="_a9TV0t4EEe6udZXaHRc5_w" source="_a9XnRt4EEe6udZXaHRc5_w" target="_a9VyEN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9aqnN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aqnd4EEe6udZXaHRc5_w" x="-27" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9aqnt4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aqn94EEe6udZXaHRc5_w" x="16" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9aqoN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9aqod4EEe6udZXaHRc5_w" x="-1" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a9aqmd4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a9aqmt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a9aqm94EEe6udZXaHRc5_w" points="[86, 6, -84, -6]$[170, 12, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9aqot4EEe6udZXaHRc5_w" id="(-0.2112676056338028,0.2054794520547945)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9aqo94EEe6udZXaHRc5_w" id="(0.0,0.44776119402985076)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a9aqpN4EEe6udZXaHRc5_w" type="4001" element="_a9TV194EEe6udZXaHRc5_w" source="_a9XnUd4EEe6udZXaHRc5_w" target="_a9VyFd4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9bRoN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9bRod4EEe6udZXaHRc5_w" x="-8" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9bRot4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9bRo94EEe6udZXaHRc5_w" x="3" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9b4sN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9b4sd4EEe6udZXaHRc5_w" x="-45" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a9aqpd4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a9aqpt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a9aqp94EEe6udZXaHRc5_w" points="[76, 20, -129, -36]$[205, 56, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9b4st4EEe6udZXaHRc5_w" id="(0.16483516483516483,0.3125)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9b4s94EEe6udZXaHRc5_w" id="(0.0,0.5357142857142857)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a9b4tN4EEe6udZXaHRc5_w" type="4001" element="_a9TV3N4EEe6udZXaHRc5_w" source="_a9XnVt4EEe6udZXaHRc5_w" target="_a9VyH94EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9b4uN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9b4ud4EEe6udZXaHRc5_w" x="-60" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9b4ut4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9b4u94EEe6udZXaHRc5_w" x="92" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9b4vN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9b4vd4EEe6udZXaHRc5_w" x="-13" y="-6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a9b4td4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a9b4tt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a9b4t94EEe6udZXaHRc5_w" points="[-8, -15, 120, 256]$[-128, -271, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9b4vt4EEe6udZXaHRc5_w" id="(0.7794117647058824,0.28846153846153844)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9b4v94EEe6udZXaHRc5_w" id="(0.0,0.32967032967032966)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a9b4wN4EEe6udZXaHRc5_w" type="4001" element="_a9TV4d4EEe6udZXaHRc5_w" source="_a9YOW94EEe6udZXaHRc5_w" target="_a9VyGt4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9b4xN4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9b4xd4EEe6udZXaHRc5_w" x="5" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9b4xt4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9b4x94EEe6udZXaHRc5_w" x="-3" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9b4yN4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9b4yd4EEe6udZXaHRc5_w" x="-4" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a9b4wd4EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a9b4wt4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a9b4w94EEe6udZXaHRc5_w" points="[11, -28, -35, 82]$[40, -97, -6, 13]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9cfwN4EEe6udZXaHRc5_w" id="(0.45045045045045046,0.6511627906976745)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9cfwd4EEe6udZXaHRc5_w" id="(0.0425531914893617,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a9cfwt4EEe6udZXaHRc5_w" type="4001" element="_a9T84t4EEe6udZXaHRc5_w" source="_a9YOZt4EEe6udZXaHRc5_w" target="_a9VyEN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9cfxt4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9cfx94EEe6udZXaHRc5_w" x="-4" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9cfyN4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9cfyd4EEe6udZXaHRc5_w" x="4" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9cfyt4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9cfy94EEe6udZXaHRc5_w" x="4" y="-9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a9cfw94EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a9cfxN4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a9cfxd4EEe6udZXaHRc5_w" points="[-15, 6, 330, -104]$[-200, 90, 145, -20]$[-204, 90, 141, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9cfzN4EEe6udZXaHRc5_w" id="(0.12931034482758622,0.3125)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9cfzd4EEe6udZXaHRc5_w" id="(0.0,0.44776119402985076)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_a9cfzt4EEe6udZXaHRc5_w" type="4001" element="_a9T8594EEe6udZXaHRc5_w" source="_a9Y1aN4EEe6udZXaHRc5_w" target="_a9VyJN4EEe6udZXaHRc5_w">
+          <children xmi:type="notation:Node" xmi:id="_a9cf0t4EEe6udZXaHRc5_w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9cf094EEe6udZXaHRc5_w" x="-4" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9cf1N4EEe6udZXaHRc5_w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9cf1d4EEe6udZXaHRc5_w" x="4" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a9cf1t4EEe6udZXaHRc5_w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a9cf194EEe6udZXaHRc5_w" x="6" y="-9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a9cfz94EEe6udZXaHRc5_w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a9cf0N4EEe6udZXaHRc5_w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a9cf0d4EEe6udZXaHRc5_w" points="[-15, 4, 84, -27]$[-69, 21, 30, -10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9cf2N4EEe6udZXaHRc5_w" id="(-0.3448275862068966,-0.20634920634920634)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a9cf2d4EEe6udZXaHRc5_w" id="(0.6666666666666666,0.47619047619047616)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_a9T87N4EEe6udZXaHRc5_w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_a9T87d4EEe6udZXaHRc5_w"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9MoIN4EEe6udZXaHRc5_w" name="0" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.0"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9PEYd4EEe6udZXaHRc5_w" name="[2]" outgoingEdges="_a9SHuN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9PEYt4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9PEZN4EEe6udZXaHRc5_w" name="[1]" outgoingEdges="_a9Suwt4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.1"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9PEZd4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9MoId4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9NPMN4EEe6udZXaHRc5_w" name="1" incomingEdges="_a9Suwt4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.1"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9PEZ94EEe6udZXaHRc5_w" name="[8]" outgoingEdges="_a9Sux94EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.1/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.1/@transitions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9PEaN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9NPMd4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9NPM94EEe6udZXaHRc5_w" name="2" incomingEdges="_a9SHuN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.2"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9PrcN4EEe6udZXaHRc5_w" name="[3]" outgoingEdges="_a9SuzN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.2/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.2/@transitions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9Prcd4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9NPNN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9NPNt4EEe6udZXaHRc5_w" name="3" incomingEdges="_a9SuzN4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.3"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9Prc94EEe6udZXaHRc5_w" name="[4]" outgoingEdges="_a9TV0t4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.3/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.3/@transitions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9PrdN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9NPN94EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9N2Qd4EEe6udZXaHRc5_w" name="4" incomingEdges="_a9TV0t4EEe6udZXaHRc5_w _a9T84t4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.4"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.4"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9Prdt4EEe6udZXaHRc5_w" name="[5]" outgoingEdges="_a9TV194EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9Prd94EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9Q5kd4EEe6udZXaHRc5_w" name="[7]" outgoingEdges="_a9TV3N4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.1"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9Q5kt4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9N2Qt4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9N2RN4EEe6udZXaHRc5_w" name="5" incomingEdges="_a9TV194EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.5"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.5"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9Q5lN4EEe6udZXaHRc5_w" name="[6]" outgoingEdges="_a9TV4d4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.5/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.5/@transitions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9RgoN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9N2Rd4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9OdUd4EEe6udZXaHRc5_w" name="6" incomingEdges="_a9TV4d4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.6"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.6"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9Rgot4EEe6udZXaHRc5_w" name="[4]" outgoingEdges="_a9T84t4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.6/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.6/@transitions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9Rgo94EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9OdUt4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9OdVN4EEe6udZXaHRc5_w" name="7" incomingEdges="_a9TV3N4EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.7"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.7"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9Rgpd4EEe6udZXaHRc5_w" name="[8]" outgoingEdges="_a9T8594EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.7/@transitions.0"/>
+        <semanticElements xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.7/@transitions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9Rgpt4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="204,242,166">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@borderedNodeMappings[name='transitions']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9OdVd4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9OdV94EEe6udZXaHRc5_w" name="8" incomingEdges="_a9Sux94EEe6udZXaHRc5_w _a9T8594EEe6udZXaHRc5_w" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.8"/>
+      <semanticElements xmi:type="State" href="Distance.dtmc#//@dtmc.0/@states.8"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9OdWN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9RgqN4EEe6udZXaHRc5_w" name="cost" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="Reward" href="Distance.dtmc#//@dtmc.0/@rewards.0"/>
+      <semanticElements xmi:type="Reward" href="Distance.dtmc#//@dtmc.0/@rewards.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9SHst4EEe6udZXaHRc5_w" name="s=1" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Action" href="Distance.dtmc#//@dtmc.0/@rewards.0/@actions.0"/>
+        <semanticElements xmi:type="Action" href="Distance.dtmc#//@dtmc.0/@rewards.0/@actions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9SHs94EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="217,196,215">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@borderedNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@borderedNodeMappings[name='action']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9Rgqd4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,233,79">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a9Rgq94EEe6udZXaHRc5_w" name="time" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="Reward" href="Distance.dtmc#//@dtmc.0/@rewards.1"/>
+      <semanticElements xmi:type="Reward" href="Distance.dtmc#//@dtmc.0/@rewards.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_a9SHtd4EEe6udZXaHRc5_w" name="s=5" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="Action" href="Distance.dtmc#//@dtmc.0/@rewards.1/@actions.0"/>
+        <semanticElements xmi:type="Action" href="Distance.dtmc#//@dtmc.0/@rewards.1/@actions.0"/>
+        <ownedStyle xmi:type="diagram:Dot" uid="_a9SHtt4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" backgroundColor="217,196,215">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@borderedNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@borderedNodeMappings[name='action']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_a9SHsN4EEe6udZXaHRc5_w" labelSize="12" labelPosition="node" color="252,233,79">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='reward']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a9SHuN4EEe6udZXaHRc5_w" name="0.33" sourceNode="_a9PEYd4EEe6udZXaHRc5_w" targetNode="_a9NPM94EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a9SHud4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a9SHut4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a9Suwt4EEe6udZXaHRc5_w" name="0.67" sourceNode="_a9PEZN4EEe6udZXaHRc5_w" targetNode="_a9NPMN4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.0/@transitions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a9Suw94EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a9SuxN4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a9Sux94EEe6udZXaHRc5_w" name="1.0" sourceNode="_a9PEZ94EEe6udZXaHRc5_w" targetNode="_a9OdV94EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.1/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a9SuyN4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a9Suyd4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a9SuzN4EEe6udZXaHRc5_w" name="1.0" sourceNode="_a9PrcN4EEe6udZXaHRc5_w" targetNode="_a9NPNt4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.2/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a9Suzd4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a9Suzt4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a9TV0t4EEe6udZXaHRc5_w" name="1.0" sourceNode="_a9Prc94EEe6udZXaHRc5_w" targetNode="_a9N2Qd4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.3/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a9TV094EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a9TV1N4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a9TV194EEe6udZXaHRc5_w" name="0.4" sourceNode="_a9Prdt4EEe6udZXaHRc5_w" targetNode="_a9N2RN4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a9TV2N4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a9TV2d4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a9TV3N4EEe6udZXaHRc5_w" name="1.0" sourceNode="_a9Q5kd4EEe6udZXaHRc5_w" targetNode="_a9OdVN4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.4/@transitions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a9TV3d4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a9TV3t4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a9TV4d4EEe6udZXaHRc5_w" name="1.0" sourceNode="_a9Q5lN4EEe6udZXaHRc5_w" targetNode="_a9OdUd4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.5/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a9TV4t4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a9TV494EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a9T84t4EEe6udZXaHRc5_w" name="1.0" sourceNode="_a9Rgot4EEe6udZXaHRc5_w" targetNode="_a9N2Qd4EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.6/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a9T8494EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a9T85N4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_a9T8594EEe6udZXaHRc5_w" name="1.0" sourceNode="_a9Rgpd4EEe6udZXaHRc5_w" targetNode="_a9OdV94EEe6udZXaHRc5_w">
+      <target xmi:type="Transition" href="Distance.dtmc#//@dtmc.0/@states.7/@transitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_a9T86N4EEe6udZXaHRc5_w" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_a9T86d4EEe6udZXaHRc5_w" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@edgeMappings[name='Line']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_a9HIkN4EEe6udZXaHRc5_w"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer"/>
+    <target xmi:type="Dtmc" href="Distance.dtmc#//@dtmc.0"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

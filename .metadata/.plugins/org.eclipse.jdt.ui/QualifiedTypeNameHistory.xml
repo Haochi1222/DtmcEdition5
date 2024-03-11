@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.eclipse.epsilon.egl.EgxModule"/>
+    <fullyQualifiedTypeName name="org.eclipse.epsilon.emc.emf.EmfModel"/>
+    <fullyQualifiedTypeName name="org.eclipse.epsilon.egl.EglFileGeneratingTemplateFactory"/>
+    <fullyQualifiedTypeName name="prism.PrismLog"/>
+    <fullyQualifiedTypeName name="prism.PrismDevNullLog"/>
+    <fullyQualifiedTypeName name="prism.Prism"/>
+    <fullyQualifiedTypeName name="parser.ast.ModulesFile"/>
+    <fullyQualifiedTypeName name="parser.ast.PropertiesFile"/>
+    <fullyQualifiedTypeName name="prism.Result"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="prism.PrismException"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="dut.edition5.dtmc.design.Calculate"/>
+    <fullyQualifiedTypeName name="dut.edition5.dtmc.design.Test"/>
+</qualifiedTypeNameHistroy>

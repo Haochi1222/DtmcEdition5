@@ -1,0 +1,8 @@
+
+
+public class GetPath {
+	public String run() {
+		return System.getProperty("user.dir");
+		
+	}
+}

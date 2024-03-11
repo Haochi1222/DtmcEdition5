@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="dut.haochi.dtmc" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_OL5O8N37Ee63gJ42zodh0w" selectedViews="_XOQnUN37Ee63gJ42zodh0w" version="15.0.0.202209061200">
+    <semanticResources>MyDtmc.dtmc</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_XOQnUN37Ee63gJ42zodh0w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Xaiv0N37Ee63gJ42zodh0w" name="new DtmcDiagram" repPath="#_XaV7gN37Ee63gJ42zodh0w" changeId="ce3ae176-b90e-4002-bee2-6593eb49e5c1">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']"/>
+        <target xmi:type="Dtmc" href="MyDtmc.dtmc#//@dtmc.0"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_XaV7gN37Ee63gJ42zodh0w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Xa244N37Ee63gJ42zodh0w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Xa244d37Ee63gJ42zodh0w" type="Sirius" element="_XaV7gN37Ee63gJ42zodh0w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_XbVaAN37Ee63gJ42zodh0w" type="2001" element="_Xa8_gN37Ee63gJ42zodh0w">
+          <children xmi:type="notation:Node" xmi:id="_Xba5kN37Ee63gJ42zodh0w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Xba5kd37Ee63gJ42zodh0w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XbiOUN37Ee63gJ42zodh0w" type="3003" element="_XbCfEN37Ee63gJ42zodh0w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XbiOUd37Ee63gJ42zodh0w" fontName="Microsoft YaHei UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XbiOUt37Ee63gJ42zodh0w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XbVaAd37Ee63gJ42zodh0w" fontName="Microsoft YaHei UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XbVaAt37Ee63gJ42zodh0w" x="305" y="150" width="206" height="106"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Xa244t37Ee63gJ42zodh0w"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_XbJMwN37Ee63gJ42zodh0w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_XbJMwd37Ee63gJ42zodh0w"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Xa8_gN37Ee63gJ42zodh0w" name="0" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="State" href="MyDtmc.dtmc#//@dtmc.0/@states.0"/>
+      <semanticElements xmi:type="State" href="MyDtmc.dtmc#//@dtmc.0/@states.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_XbCfEN37Ee63gJ42zodh0w" labelSize="12" labelPosition="node" color="252,175,62">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer/@nodeMappings[name='state']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_XadQQN37Ee63gJ42zodh0w"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/dut.edition5.dtmc.design/description/dtmc.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DtmcDiagram']/@defaultLayer"/>
+    <target xmi:type="Dtmc" href="MyDtmc.dtmc#//@dtmc.0"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

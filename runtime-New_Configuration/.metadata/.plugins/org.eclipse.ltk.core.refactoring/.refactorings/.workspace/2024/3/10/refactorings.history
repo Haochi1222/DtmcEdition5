@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;DistanDTMC/MyDtmc.dtmc&apos;" deleteContents="false" description="Delete resource &apos;DistanDTMC/MyDtmc.dtmc&apos;" element1="/DistanDTMC/MyDtmc.dtmc" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1709982085429"/>&#x0A;<refactoring comment="Delete resource &apos;DistanDTMC/dtmc2prism.egl&apos;" deleteContents="false" description="Delete resource &apos;DistanDTMC/dtmc2prism.egl&apos;" element1="/DistanDTMC/dtmc2prism.egl" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1709983191035"/>
+</session>
