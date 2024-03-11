@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+E:\Dtmc\Edition5\.metadata\.plugins\org.eclipse.jdt.core
+3299158067.index
+1352135876.index
+3353515512.index
+3697900776.index
